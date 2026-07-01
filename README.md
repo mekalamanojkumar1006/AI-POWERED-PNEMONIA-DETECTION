@@ -1,7 +1,6 @@
-<div align="center">
+ 
  https://github.com/user-attachments/assets/1e7c7536-bb9f-4f29-834e-c0fc82079709
-</div>
-
+ 
 # Run and deploy your AI Studio app
 
  
