@@ -1,0 +1,5 @@
+
+{
+  "name": "AI Pneumonia Detection",
+  "description": "A sophisticated dashboard for uploading chest X-ray images and receiving AI-powered pneumonia detection analysis. It features a dashboard with statistics, an upload interface, and a detailed history of past predictions."
+}

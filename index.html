@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Pneumonia Detection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': '#1a73e8',
+              'brand-blue-light': '#e8f0fe',
+              'brand-green': '#1e8e3e',
+              'brand-red': '#d93025',
+              'brand-yellow': '#f9ab00',
+              'light-bg': '#f8f9fa',
+              'medium-bg': '#f1f3f4',
+              'dark-text': '#202124',
+              'medium-text': '#5f6368',
+              'light-text': '#80868b',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-light-bg text-dark-text antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
